@@ -4,7 +4,7 @@
   "description": "Astra data ingestion SDK for JavaScript in the browser and Node.js",
   "main": "dist/index.js",
   "scripts": {
-    "build": "./node_modules/.bin/tsc",
+    "build": "tsc",
     "lint": "tslint {source}/**/*.ts",
     "secure": "gulp secure"
   },
